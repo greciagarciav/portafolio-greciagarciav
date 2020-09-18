@@ -1,11 +1,25 @@
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
+/* .w3-row-padding img {margin-bottom: 12px} */
 .bgimg {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('assets/107571565_3162706540511576_4947233014725869110_o.jpg');
   min-height: 100%;
+}
+
+.ctn-prj {
+    margin-top: 17px;
+}
+
+.ctn-prj img:hover {
+    background-color: #4caf50;
+}
+
+.btn-prj {
+    width: 50%;
+    height: 45px;
+    
 }
 
 html {
